@@ -1,0 +1,8 @@
+Algoritmo SomaDoisNumeros 
+	escrever "Introduzir o primeiro número" 
+	ler n1 
+	escrever "Introduzir o segundo número" 
+	ler n2
+	resultado = n1 + n2
+	escrever "O resultado da soma é ". resultado
+Fim do Algoritmo
