@@ -3,6 +3,9 @@ Algoritmo SubtrairDoisNumeros
 	ler n1 
 	escrever "Introduzir o segundo número" 
 	ler n2
-	resultado = n1 - n2
+	se n1 > n2
+		resultado = n1 - n2
+	senão
+		resultado = n2 - n1
 	escrever "O resultado da subtração é ". resultado
 Fim do Algoritmo
